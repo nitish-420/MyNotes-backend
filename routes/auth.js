@@ -6,7 +6,7 @@ const bcrypt=require('bcryptjs')
 
 const jwt=require('jsonwebtoken')
 
-const JWT_SECRET="this is a secret"
+const JWT_SECRET=process.env.SECRET;
 
 const fetchuser=require("../middleware/fetchUser")
 
