@@ -26,3 +26,7 @@ app.get('/',(req,res)=>{
 app.listen(port,()=>{
     console.log(`Listening on port ${port}`)
 })
+
+// backend is working at 
+
+// https://mynotes-backend-nitish.herokuapp.com/
